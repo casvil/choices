@@ -1,0 +1,15 @@
+.movie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.movie-title {
+  flex: 1;
+  padding: 4px;
+}
+
+.movie-button {
+  margin-top: 4px;
+  width: 50%;
+}
