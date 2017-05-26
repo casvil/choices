@@ -5,11 +5,11 @@
 }
 
 .movie-title {
-  flex: 1;
   padding: 4px;
 }
 
 .movie-button {
-  margin-top: 4px;
+  margin-top: 15px;
+  padding: 4px;
   width: 50%;
 }

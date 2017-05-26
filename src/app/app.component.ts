@@ -7,8 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app works!';
-  textButton = ['Pick this..', 'Or pick this!'];
-  movies = [
+  textButton = ['Pick this..', 'Or pick that!'];
+  pair = [
     {
       "poster_path": "/tWqifoYuwLETmmasnGHO7xBjEtt.jpg",
       "adult": false,
@@ -52,4 +52,8 @@ export class AppComponent {
       "vote_average": 7.6
     }
   ];
+  movies = [];
+  chooseMovie(movie){
+    this.movies.push(movie);
+  }
 }

@@ -1,7 +1,5 @@
-<h1>
-  {{title}}
-</h1>
 <div class="container">
-  <app-movie [movie]="movies[0]" [textButton]="textButton[0]"></app-movie>
-  <app-movie [movie]="movies[1]" [textButton]="textButton[1]"></app-movie>
+  <app-movie [movie]="pair[0]" [textButton]="textButton[0]" (selectMovie)="chooseMovie($event)"></app-movie>
+  <app-movie [movie]="pair[1]" [textButton]="textButton[1]" (selectMovie)="chooseMovie($event)"></app-movie>
 </div>
+<app-movie-list [movies]="movies"></app-movie-list>
