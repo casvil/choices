@@ -2,4 +2,5 @@
   <app-movie [movie]="pair[0]" [textButton]="textButton[0]" (selectMovie)="chooseMovie($event)"></app-movie>
   <app-movie [movie]="pair[1]" [textButton]="textButton[1]" (selectMovie)="chooseMovie($event)"></app-movie>
 </div>
-<app-movie-list [movies]="movies"></app-movie-list>
+<h4>Selected Movies</h4>
+<app-movie-list class="movie-list" [movies]="movies"></app-movie-list>

@@ -1,0 +1,10 @@
+.selectedImage {
+  width: 50px;
+}
+
+.selectedMovie {
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

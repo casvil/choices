@@ -1,3 +1,4 @@
-<div *ngFor="let movie of movies">
-  {{movie.title}}
+<div *ngFor="let movie of movies" class="selectedMovie">
+  <h6>{{movie.title}}</h6>
+  <img class="selectedImage" src="https://image.tmdb.org/t/p/w300/{{movie.poster_path}}" />
 </div>
